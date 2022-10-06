@@ -23,5 +23,14 @@ public class Objects {
                 + "\nДата: " + harryPotter.getPublicationYear());
         System.out.println();
 
+        System.out.println(harryPotter);
+        System.out.println();
+        System.out.println(joanne);
+        System.out.println();
+        Author schildt2 = new Author("Schildt", "Herbert");
+        Author schildt3 = new Author("Schi", "Herbert");
+        System.out.println(schildt.equals(schildt2));
+        System.out.println(schildt.equals(schildt3));
+
     }
 }
